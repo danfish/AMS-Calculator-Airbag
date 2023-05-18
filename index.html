@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="style.css">
+
+<script src="app.js"></script>
+
+<div class="ams-calculator-wrapper">
+  
+    <form id="ams-airbag-load-calculator" class="ams-calculator" method="POST">
+      
+      <fieldset>
+        
+        <legend class="">Airbag Load Calculator</legend>
+  
+        <div class="ams-calculator__group">
+          <label for="airbag-load__aircraft-weight-in-tonnes" aria-label="Aircraft weight in tonne">Aircraft weight in tonne</label>
+          <input type="number" name="airbag-load__aircraft-weight-in-tonnes" min="0" step="0.1" value="0" aria-invalid="false" aria-required="false"/>
+        </div>
+  
+        <div class="ams-calculator__group">
+          <label for="airbag-load__centre-of-gravity-to-airbag-centre" aria-label="Centre of Gravity to Airbag centre in metre">Centre of Gravity to Airbag centre in metre</label>
+          <input type="number" name="airbag-load__centre-of-gravity-to-airbag-centre" min="0" step="0.1" value="0" aria-invalid="false" aria-required="false"/>
+        </div>
+  
+        <div class="ams-calculator__group">
+          <label for="airbag-load__airbag-centre-to-main-landing-gear" aria-label="Airbag centre to Main Landing Gear in metre">Airbag centre to Main Landing Gear in
+            metre</label>
+          <input type="number" name="airbag-load__airbag-centre-to-main-landing-gear" min="0" step="0.1" value="0" aria-invalid="false" aria-required="false"/>
+        </div>
+  
+        <div class="ams-calculator__group">
+          <label for="airbag-load__clockwise-airbag-turning-moment" aria-label="C/wise Airbag turning moment">C/wise Airbag turning moment</label>
+          <input type="text" name="airbag-load__clockwise-airbag-turning-moment" readonly="1" aria-invalid="false" aria-required="false" value="Please provide values for fields above"/>
+        </div>
+  
+        <div class="ams-calculator__group">
+          <label for="airbag-load__weight-at-main-landing-gear" aria-label="Weight at Main Landing Gear in tonne">Weight at Main Landing Gear in tonne</label>
+          <input type="text" name="airbag-load__weight-at-main-landing-gear" readonly="1" aria-invalid="false" aria-required="false" value="Please provide values for fields above"/>
+        </div>
+  
+        <div class="ams-calculator__group">
+          <label for="airbag-load__weight-at-airbag-centre" aria-label="Weight at Airbag centre in tonne">Weight at Airbag centre in tonne</label>
+          <input type="text" name="airbag-load__weight-at-airbag-centre" readonly="1" aria-invalid="false" aria-required="false" value="Please provide values for fields above"/>
+        </div>
+        
+      </fieldset>
+      
+    </form>
+    
+  </div>
