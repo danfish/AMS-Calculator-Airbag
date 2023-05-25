@@ -80,7 +80,7 @@ function amsSlingCalculator(){
     // Selecting elements
     var aircraftWeight = calculator.querySelector('input[name="sling__aircraft-weight-in-tonnes"]');
     var centreOfGravityToSling = calculator.querySelector('input[name="sling__centre-of-gravity-to-sling-centre"]');
-    var slingToMainGear = calculator.querySelector('input[name="sling__sling-airbag-centre-to-main-landing-gear"]');
+    var slingToMainGear = calculator.querySelector('input[name="sling__centre-to-main-landing-gear"]');
     var clockwiseMoment = calculator.querySelector('input[name="sling__clockwise-sling-turning-moment"]');
     var weightAtMainGear = calculator.querySelector('input[name="sling__weight-at-main-landing-gear"]');
     var weightAtSlingCentre = calculator.querySelector('input[name="sling__weight-at-sling-centre"]');
