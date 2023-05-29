@@ -1,4 +1,13 @@
-   .ams-calculator-wrapper {
+.ams-calculator-wrapper {
+    --e-global-color-primary: #032368;
+    --e-global-color-secondary: #F08100;
+    --e-global-color-text: #30303A;
+    --e-global-typography-text-font-size: 15px;
+    --e-global-typography-text-font-family: "Montserrat";
+    font-family: var(--e-global-typography-text-font-family);
+    line-height: 20px;
+  }
+.ams-calculator-wrapper {
     --form-spacing: 16px;
     --group-spacing: 8px;
     --field-color: #E9EAEF;
